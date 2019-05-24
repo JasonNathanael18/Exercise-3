@@ -268,8 +268,11 @@ function filter() {
     }
 
     for (let i = 0; i < dataPlanets.length; i++) {
-        let string = dataPlanets[i].name.toLowerCase();
-        if (string.includes(temp_word)) {
+        let stringName = dataPlanets[i].name.toLowerCase();
+        let stringClimate = dataPlanets[i].climate.toLowerCase();
+        let stringGrav = dataPlanets[i].gravity.toLowerCase();
+        let stringTerr = dataPlanets[i].terrain.toLowerCase();
+        if (stringName.includes(temp_word) || stringClimate.includes(temp_word) || stringGrav.includes(temp_word) ||stringTerr.includes(temp_word)) {
             htmlData += "<tr>"
             htmlData += "<td>" + dataPlanets[i].name + "</td>"
             htmlData += "<td>" + dataPlanets[i].rotation_period + "</td>"

@@ -18,6 +18,10 @@ button{
     height: 30px;
 }
 
+input:focus {
+    outline-width: 0;
+}
+
 #filter{
     margin: 1%;
 }
@@ -33,4 +37,8 @@ button{
 
 button:hover{
     background-color: orange; 
+}
+
+button:focus {
+    outline-width: 0;
 }
