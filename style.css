@@ -28,3 +28,7 @@ button{
     margin-left: 1%;
     margin-right: 1%;
 }
+
+button:hover{
+    background-color: orange; 
+}
