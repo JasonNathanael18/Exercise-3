@@ -20,6 +20,10 @@ button{
     height: 30px;
 }
 
+input{
+    width: 400px;
+}
+
 input:focus {
     outline-width: 0;
 }
