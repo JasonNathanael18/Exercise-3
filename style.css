@@ -1,0 +1,30 @@
+body{
+    background-image:linear-gradient(black, gray);
+}
+
+#title{
+    text-align: center;
+    color: white;
+}
+
+button{
+    border-radius: 5px;
+    background-color: orangered;
+    border: 0px;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+#filter{
+    margin: 1%;
+}
+
+#filter-text{
+    border-radius: 10px;
+}
+
+#planet-keys{
+    margin-left: 1%;
+    margin-right: 1%;
+}
