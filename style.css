@@ -1,8 +1,10 @@
 body{
-    height: 100vh;
     background-image:linear-gradient(black, gray);
     background-size: cover;
+    background-repeat: repeat-x;
+    height: 100vh;
 }
+
 
 #title{
     text-align: center;
